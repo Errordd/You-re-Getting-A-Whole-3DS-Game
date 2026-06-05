@@ -1,0 +1,22 @@
+BasicInfo:
+ Title : $(APP_TITLE)
+ ProductCode : $(APP_PRODUCT_CODE)
+ Logo : Homebrew
+
+RomFs:
+ RootPath: $(APP_ROMFS)
+
+TitleInfo:
+ Category : Application
+ UniqueId : $(APP_UNIQUE_ID)
+
+Option:
+ UseOnSD : true
+ FreeProductCode : true
+ MediaFootPadding : false
+ EnableCrypt : $(APP_ENCRYPTED)
+ EnableCompress : true
+
+SystemControlInfo:
+ RemasterVersion : 2
+ StackSize : 0x40000
